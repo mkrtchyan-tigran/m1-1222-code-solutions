@@ -8,11 +8,11 @@ button:hover {
   cursor: pointer;
 }
 
-th {
+thead tr {
   background-color: black;
   color: white;
 }
 
-tr:nth-child(2n+1) {
+tbody tr:nth-child(odd) {
   background-color: #818589;
 }
