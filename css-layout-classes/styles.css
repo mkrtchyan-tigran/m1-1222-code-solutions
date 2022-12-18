@@ -1,0 +1,33 @@
+.container {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  display: flex;
+}
+
+.row .img {
+  width: calc(100% / 2);
+}
+
+.row img {
+  width: 150px;
+}
+
+.row .image img {
+  width: 200px;
+  height: auto;
+}
+
+.row .text p {
+  font-size: 100%;
+  margin: 10px 0;
+  padding: 0 10px;
+}
+
+.row .text h2 {
+  margin: 10px 0;
+  padding: 0 10px;
+}
