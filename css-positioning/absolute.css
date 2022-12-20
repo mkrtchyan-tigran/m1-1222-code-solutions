@@ -33,8 +33,7 @@
   /* your code here */
 
   position: absolute;
-  top: 155px;
-  left: 3px;
+  bottom: 0;
 }
 
 .overlay {
