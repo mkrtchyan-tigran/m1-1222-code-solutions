@@ -52,9 +52,8 @@ button {
   background-color: #ff704d;
   border: 1px #ff704d;
   border-radius: 25px;
-  font-size: 10px;
+  font-size: 15px;
   color: white;
-  width: 75px;
-  height: 25px;
-  text-align: right;
+  text-align: center;
+  padding: 10px 20px;
 }
