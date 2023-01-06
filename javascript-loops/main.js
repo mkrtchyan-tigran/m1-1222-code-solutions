@@ -15,7 +15,6 @@ function getNumbersToTen() {
   }
   return numbers;
 }
-getNumbersToTen();
 
 function getEvenNumbersToTwenty() {
   var evenNumbers = [];
@@ -26,7 +25,6 @@ function getEvenNumbersToTwenty() {
   }
   return evenNumbers;
 }
-getEvenNumbersToTwenty();
 
 function repeatWord(word, times) {
   var count = 1;
@@ -37,14 +35,12 @@ function repeatWord(word, times) {
   }
   return repeated;
 }
-repeatWord();
 
 function logEachCharacter(string) {
   for (var i = 0; i < string.length; i++) {
-    console.log(string);
+    console.log(string[i]);
   }
 }
-logEachCharacter('javascript');
 
 function doubleAll(numbers) {
   var doubled = [];
@@ -53,7 +49,6 @@ function doubleAll(numbers) {
   }
   return doubled;
 }
-doubleAll([]);
 
 function getKeys(object) {
   var keys = [];
@@ -62,7 +57,6 @@ function getKeys(object) {
   }
   return keys;
 }
-getKeys();
 
 function getValues(object) {
   var values = [];
@@ -71,5 +65,3 @@ function getValues(object) {
   }
   return values;
 }
-
-getValues();
