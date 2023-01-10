@@ -46,7 +46,9 @@ var css = {
 };
 library.push(js);
 library.unshift(css);
+
 library.splice(1, 1);
+
 console.log(library);
 
 var fullName = 'Tigran' + ' ' + 'Mkrtchyan';
@@ -55,3 +57,5 @@ console.log('firstAndLastName:', firstAndLastName);
 var firstName = firstAndLastName[0];
 var sayMyName = firstName.toUpperCase();
 console.log('sayMyName:', sayMyName);
+
+
