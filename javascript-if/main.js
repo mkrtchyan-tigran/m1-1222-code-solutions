@@ -20,7 +20,6 @@ function isEven(number) {
   }
   return false;
 }
-
 function startsWithJ(string) {
   if (string[0] === 'J') {
     return true;
@@ -34,6 +33,7 @@ function isOldEnoughToDrink(person) {
   }
   return false;
 }
+
 
 function isOldEnoughToDrive(person) {
   if (person.age >= 16) {
@@ -49,12 +49,13 @@ function isOldEnoughToDrinkAndDrive(person) {
   }
 }
 
+
 function categorizeAcidity(pH) {
-  if (pH >= 0 && pH < 7) {
+  if ((pH >= 0) && (pH <= 6)) {
     return 'acid';
-  } else if (pH > 7 && pH <= 14) {
+  } if ((pH >= 8) && (pH <= 14)) {
     return 'base';
-  } else if (pH === 7) {
+  } if (pH === 7) {
     return 'neutral';
   } else {
     return 'invalid pH level';
