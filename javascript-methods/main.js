@@ -46,9 +46,16 @@ var css = {
 };
 library.push(js);
 library.unshift(css);
-library.splice(1);
+
+library.splice(1, 1);
+
 console.log(library);
 
 var fullName = 'Tigran' + ' ' + 'Mkrtchyan';
 var firstAndLastName = fullName.split(' ');
-console.log('firstAndLastName', firstAndLastName);
+console.log('firstAndLastName:', firstAndLastName);
+var firstName = firstAndLastName[0];
+var sayMyName = firstName.toUpperCase();
+console.log('sayMyName:', sayMyName);
+
+
