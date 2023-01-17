@@ -13,7 +13,6 @@ function isUnderFive(number) {
   }
   return false;
 }
-isUnderFive();
 
 function isEven(number) {
   if (number % 2 === 0) {
@@ -21,34 +20,35 @@ function isEven(number) {
   }
   return false;
 }
-isEven();
-
 function startsWithJ(string) {
   if (string[0] === 'J') {
     return true;
   }
   return false;
 }
-startsWithJ('Javascript');
 
 function isOldEnoughToDrink(person) {
-  if (person >= 21) {
+  if (person.age >= 21) {
     return true;
   }
   return false;
 }
-isOldEnoughToDrink();
+
 
 function isOldEnoughToDrive(person) {
-  if (person >= 16) {
+  if (person.age >= 16) {
     return true;
   }
   return false;
 }
 function isOldEnoughToDrinkAndDrive(person) {
-  return false;
+  if (person.age >= 21 && person.age >= 16) {
+    return false;
+  } else {
+    return false;
+  }
 }
-isOldEnoughToDrinkAndDrive();
+
 
 function categorizeAcidity(pH) {
   if ((pH >= 0) && (pH <= 6)) {
@@ -64,7 +64,7 @@ function categorizeAcidity(pH) {
 function introduceWarnerBro(name) {
   if ((name === 'yakko') || (name === 'wakko')) {
     return "We're the warner brothers!";
-  } if (name === 'dot') {
+  } else if (name === 'dot') {
     return "I'm cute~";
   } else {
     return 'Goodnight everybody!';
