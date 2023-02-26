@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,37 +10,44 @@
   <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-  <div class="header">
-    <h2>learn more</h2>
-  </div>
-  <div class="container">
-    <form action="">
-      <label>
-        COMPANY EMAIL
-        <input type="email" name="email" placeholder="sally@company.co" required>
-      </label>
-      <label>
-        NAME
-        <input type="text" name="name" placeholder="Sally Smith" required>
-      </label>
-      <label>
-        WHERE ARE YOU HIRING?
-        <input type="text" name="hiring" placeholder="City, Country" required>
-      </label>
-      <label>
+  <section>
+    <div>
+      <h3>LEARN MORE</h3>
+    </div>
+  </section>
+  <section>
+    <form method="post">
+      <label for="company-email">COMPANY EMAIL</label>
+      <div class="form-input">
+        <input type="text" name="email" id="company-email" placeholder="sally@company.co">
+      </div>
+      <label for="name">NAME</label>
+      <div class="form-input">
+        <input type="text" name="name" id="name" placeholder="Sally Smith">
+      </div>
+      <label for="location">WHERE ARE YOU HIRING?</label>
+      <div class="form-input">
+        <input type="text" name="location" id="location" placeholder="City, Country">
+      </div>
+      <label for="qty-eng">
         HOW MANY ENGINEERS ARE YOU HIRING IN THE NEXT 6 MONTHS?
-        <select name="number">
-          <option value="one">1-2 Engineers</option>
-          <option value="two">3-4 Engineers</option>
-          <option value="three">5-6 Engineers</option>
-          <option value="four">6-8 Engineers</option>
-        </select>
       </label>
-      <button type="submit">
-        SUBMIT
-      </button>
+      <div class="form-input">
+        <select name="qty-eng" id="qty-eng">
+          <option selected>1-2 Engineers</option>
+          <option>3-4 Engineers</option>
+          <option>5-6 Engineers</option>
+          <option>7-8 Engineers</option>
+          <option>9-10 Engineers</option>
+        </select>
+      </div>
+      <div>
+        <button type="submit">SUBMIT</button>
+      </div>
     </form>
-  </div>
+  </section>
 </body>
+
 </html>
