@@ -1,5 +1,6 @@
 span {
   font-family: Courier, monospace;
+  white-space: pre;
 }
 
 .container {
@@ -18,10 +19,6 @@ span {
 
 .red {
   color: red;
-}
-
-.space {
-  white-space: pre;
 }
 
 .current {
