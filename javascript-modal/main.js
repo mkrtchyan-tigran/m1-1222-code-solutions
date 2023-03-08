@@ -4,8 +4,6 @@ var $survey = document.querySelector('.survey');
 var $modalOff = document.querySelector('.modal-no');
 
 function modalOn() {
-  var modalTurnOn;
-  $modal.className = 'modal ' + modalTurnOn;
   $survey.className = 'survey';
 }
 
